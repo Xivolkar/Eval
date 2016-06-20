@@ -72,7 +72,7 @@
                 <div class="form-group">
                     <label for="TA" class="col-sm-2 control-label">Assigned To</label>
                     <div class="col-sm-10">
-                        <select class="form-control" ng-options="act for act in agent">
+                        <select class="form-control" ng-model="selectedAgent" ng-options="act for act in agents">
                         </select>
                     </div>
                 </div>

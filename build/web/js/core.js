@@ -2,6 +2,7 @@ var app = angular.module('evalApp', []);
 
 app.controller('TicketController', function($scope, $http) {
     $scope.agents = null;
+    $scope.selectedAgent = null;
 
     $http({
         method: 'GET',
